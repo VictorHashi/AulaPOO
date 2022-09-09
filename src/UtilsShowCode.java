@@ -39,4 +39,44 @@ public class UtilsShowCode {
 		}
 		return saida;
 	}
+	
+	public static String moldura(int col, int row){
+		
+		if (col < 1 || col > 20) {
+			col = 10;
+		}
+					
+		if (row < 1 || row > 20) {
+			row = 7;
+		}
+					
+		StringBuilder saida = new StringBuilder();
+					
+		for (int i = 0; i < row; i++) {
+						
+			if (i == 0||i == row-1) {
+				saida.append("+");
+			}else {
+				saida.append("|");
+			}
+						
+						
+			for (int j = 0; j < col; j++) {
+				saida.append("-");
+			}
+						
+						
+			if (i == 0||i == row-1) {
+				saida.append("+");
+			}else {
+				saida.append("|");
+			}
+						
+			saida.append("\n");
+		}
+					
+		return saida.toString();
+					
+	}
+	
 }
