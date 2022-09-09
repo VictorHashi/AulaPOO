@@ -27,6 +27,37 @@ public class SelectExe {
 			switch (answer) {
 			case 0:
 				break;
+			
+			case 1:
+				
+				Exe01.main1();
+				
+				break;
+			case 2:
+				
+				Exe02.main2();
+				
+				break;
+			case 3:
+				
+				Exe03.main3();
+				
+				break;
+			case 4:
+				
+				Exe04.main4();
+				
+				break;
+			case 5:
+				
+				Exe05.main5();
+				
+				break;
+			case 6:
+				
+				Exe06.main6();
+				
+				break;
 			case 7:
 				
 				Exe07.main7();
@@ -45,6 +76,21 @@ public class SelectExe {
 			case 10:
 				
 				Exe10.main10();
+				
+				break;
+			case 11:
+				
+				Exe11.main11();
+				
+				break;
+			case 12:
+				
+				Exe12.main12();
+				
+				break;
+			case 13:
+				
+				Exe013.main13();
 				
 				break;
 	

@@ -17,5 +17,26 @@ public class UtilsShowCode {
 		return sb.toString();
 		
 	}
+
+	public static String repita(int num) {
+		String saida = "";
+		for(int x = 1; x <= num; x++) {
+			for (int y = 1; y <= x + 1; y++) {
+				saida += Integer.toString(x) + "  ";
+			}
+			saida += "\n";
+		}
+		return saida;
+	}  
 	
+	public static String repitaAte(int num) {
+		String saida = "";
+		for(int x = 1; x <= num; x++) {
+			for (int y = 1; y <= x + 1; y++) {
+				saida += Integer.toString(y) + "  ";
+			}
+			saida += "\n";
+		}
+		return saida;
+	}
 }
