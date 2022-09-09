@@ -21,7 +21,7 @@ de atraso.
 public class Exe07 {
 
 	//Entrada do usuário e chamada do restante de métodos
-	public static void coletaValores() {
+	public static void main7() {
 		Scanner scan = new Scanner(System.in);
 		
 		float valIni = 0;
